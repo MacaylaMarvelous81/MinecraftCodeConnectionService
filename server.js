@@ -1,5 +1,5 @@
 var request = require("request")
-(async function() {
+async function iife1() {
   console.log("Waiting for response from Code Connection...")
   let connected = await request("http://localhost:8080/connected")
   if(connected.body === "true") {
@@ -13,4 +13,5 @@ var request = require("request")
   await request("http:/localhost:8080/move?direction=back")
   await request("http:/localhost:8080/turn?direction=left")
   await request("http:/localhost:8080/turn?direction=right")
-})()
+}
+iife1()
