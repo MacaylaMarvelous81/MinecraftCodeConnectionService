@@ -10,10 +10,10 @@ async function iife1() {
     return
   }
   */
-  await request("http:/localhost:8080/move?direction=forward")
-  await request("http:/localhost:8080/move?direction=forward")
-  await request("http:/localhost:8080/move?direction=back")
-  await request("http:/localhost:8080/turn?direction=left")
-  await request("http:/localhost:8080/turn?direction=right")
+  await request("http://localhost:8080/move?direction=forward")
+  await request("http://localhost:8080/move?direction=forward")
+  await request("http://localhost:8080/move?direction=back")
+  await request("http://localhost:8080/turn?direction=left")
+  await request("http://localhost:8080/turn?direction=right")
 }
 iife1()
