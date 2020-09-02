@@ -2,7 +2,7 @@ var request = require("request")
 async function iife1() {
   console.log("Waiting for response from Code Connection...")
   let connected = await request("http://localhost:8080/connected")
-  if(connected.body === "true") {
+  if(connected.body.includes("true")) {
     console.log("Connected!")
   } else {
     console.log("Unable to connect.")
