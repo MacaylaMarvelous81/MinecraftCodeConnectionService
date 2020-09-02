@@ -13,22 +13,22 @@ var request = require("request")
   }
   await request({
     method: "GET",
-    uri: "localhost:8080/move?direction=forward")
+    uri: "localhost:8080/move?direction=forward"
   })
   await request({
     method: "GET",
-    uri: "localhost:8080/move?direction=forward")
+    uri: "localhost:8080/move?direction=forward"
   })
   await request({
     method: "GET",
-    uri: "localhost:8080/move?direction=back")
+    uri: "localhost:8080/move?direction=back"
   })
   await request({
     method: "GET",
-    uri: "localhost:8080/turn?direction=left")
+    uri: "localhost:8080/turn?direction=left"
   })
   await request({
     method: "GET",
-    uri: "localhost:8080/move?turn?direction=right")
+    uri: "localhost:8080/move?turn?direction=right"
   })
 })()
