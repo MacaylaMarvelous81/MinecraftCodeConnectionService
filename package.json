@@ -1,0 +1,9 @@
+{
+  "name": "MinecraftCodeConnectionService",
+  "description": "minecraft code connection service",
+  "version": "1.0.0",
+  "author": "MacaylaMarvelous81",
+  "dependencies": {
+    "request": "^2.88.2"
+  }
+}
